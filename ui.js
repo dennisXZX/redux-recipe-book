@@ -37,6 +37,7 @@ export default function loadUI () {
     </div>`)
 
   // add updateUI() to the subscribe list
+  // so when the state changes, updateUI() will be called
   store.subscribe(updateUI)
 
   // add event handler
